@@ -1,0 +1,15 @@
+idf_component_register(SRC_DIRS
+                    "."
+                    "ui/fonts"
+                    "ui/imgs"
+                    "ui/imgs/image_language"
+                    "ui/imgs/image_light"
+                    "ui/imgs/image_standby"
+                    "ui/imgs/image_wash"
+                    "ui/imgs/image_main"
+                    "ui/imgs/image_thermostat"
+                    "ui"
+                    "ui/layer_manage"
+                    INCLUDE_DIRS
+                    "."
+                    "ui/layer_manage")

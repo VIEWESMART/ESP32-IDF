@@ -1,0 +1,3 @@
+Compiler supported targets: xtensa-esp32s3-elf
+
+Note: HPM is enabled for the flash, force the ROM bootloader into DOUT mode for stable boot on
