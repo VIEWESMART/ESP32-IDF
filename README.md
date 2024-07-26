@@ -1,5 +1,7 @@
-# ESP32-IDF-SDK
+# ESP32-IDF/examples
  This warehouse mainly provides you with the VIEWE smart screen development board ESP32-IDF framework LVGL demonstration. Among them, the display screen, the knob encoder and the button of the knob smart screen are driven. 2.1inch adds the washing machine UI Demo designed by LVGL, and 1.3 also has a similar UI design. For touch screens we also drive the display, adding touch and a simple example of LVGL. So you can use it for free development.
+ # docs
+ # tools
 
 # WHO WE ARE
 ### We are Display Expert
