@@ -7,12 +7,12 @@
  VIEWE(www.viewedisplay.com) focus on IOT Smart GUI and display & touch total solutions. VIEWE is a high-tech enterprise that integrates R&D, production and sales service.
  ####   Adhering to the core values of professionalism, dedication, innovation and ambition, the company is customer-centric and innovation-driven, is determined to become the most valuable and respected leading enterprise in the field of Display & GUI.
 
- # WIKI:
- ## www.display-wiki.com
-
 #### Total solutions of Display Screen, Touch Screen and Full Lamination
 #### Smart Display: Uart Display, IOT Display, Raspberry Pi Display, Arduino Display…
 #### Innovative Display: Ecolity Display, Sunreadable Display, NearEye Display..
+
+# WIKI:
+ ## www.display-wiki.com
 
  # The following is the display of various models of smart screen development boards:
   ### The image below is just a rendering, and each screen size is not the same.
