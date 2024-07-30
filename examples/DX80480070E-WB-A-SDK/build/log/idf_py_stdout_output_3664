@@ -1,0 +1,75 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\Espressif\Espressif-5.1.1\frameworks\esp-idf-v5.1.1\examples\get-started\ESP32-S3-16R8-YYSJ050-070-800-480\build\bootloader\esp-idf\esptool_py && D:\Espressif\Espressif-5.1.1\python_env\idf5.1_py3.11_env\Scripts\python.exe D:/Espressif/Espressif-5.1.1/frameworks/esp-idf-v5.1.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 D:/Espressif/Espressif-5.1.1/frameworks/esp-idf-v5.1.1/examples/get-started/ESP32-S3-16R8-YYSJ050-070-800-480/build/bootloader/bootloader.bin"
+Bootloader binary size 0x67f0 bytes. 0x1810 bytes (19%) free.
+[2/8] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/porting/lv_port_disp.c.obj
+D:/Espressif/Espressif-5.1.1/frameworks/esp-idf-v5.1.1/examples/get-started/ESP32-S3-16R8-YYSJ050-070-800-480/components/lvgl/porting/lv_port_disp.c: In function 'lv_port_tick_init':
+D:/Espressif/Espressif-5.1.1/frameworks/esp-idf-v5.1.1/examples/get-started/ESP32-S3-16R8-YYSJ050-070-800-480/components/lvgl/porting/lv_port_disp.c:301:16: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  301 |         .arg = &tick_inc_period_ms,
+      |                ^
+[3/8] Linking C static library esp-idf\lvgl\liblvgl.a
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable lvgl_demo.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.7.dev1
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated D:/Espressif/Espressif-5.1.1/frameworks/esp-idf-v5.1.1/examples/get-started/ESP32-S3-16R8-YYSJ050-070-800-480/build/lvgl_demo.bin
+[7/8] cmd.exe /C "cd /D D:\Espressif\Espressif-5.1.1\frameworks\esp-idf-v5.1.1\examples\get-started\ESP32-S3-16R8-YYSJ050-070-800-480\build\esp-idf\esptool_py && D:\Espressif\Espressif-5.1.1\python_env\idf5.1_py3.11_env\Scripts\python.exe D:/Espressif/Espressif-5.1.1/frameworks/esp-idf-v5.1.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Espressif/Espressif-5.1.1/frameworks/esp-idf-v5.1.1/examples/get-started/ESP32-S3-16R8-YYSJ050-070-800-480/build/partition_table/partition-table.bin D:/Espressif/Espressif-5.1.1/frameworks/esp-idf-v5.1.1/examples/get-started/ESP32-S3-16R8-YYSJ050-070-800-480/build/lvgl_demo.bin"
+lvgl_demo.bin binary size 0xa5ff0 bytes. Smallest app partition is 0x2ee000 bytes. 0x248010 bytes (78%) free.
+[7/8] cmd.exe /C "cd /D D:\Espressif\Espressif-5.1.1\frameworks\esp-idf-v5.1.1\components\esptool_py && D:\Espressif\Espressif-5.1.1\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=D:/Espressif/Espressif-5.1.1/frameworks/esp-idf-v5.1.1 -D SERIAL_TOOL=D:/Espressif/Espressif-5.1.1/python_env/idf5.1_py3.11_env/Scripts/python.exe;;D:/Espressif/Espressif-5.1.1/frameworks/esp-idf-v5.1.1/components/esptool_py/esptool/esptool.py;--chip;esp32s3 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=D:/Espressif/Espressif-5.1.1/frameworks/esp-idf-v5.1.1/examples/get-started/ESP32-S3-16R8-YYSJ050-070-800-480/build -P D:/Espressif/Espressif-5.1.1/frameworks/esp-idf-v5.1.1/components/esptool_py/run_serial_tool.cmake"
+esptool.py --chip esp32s3 -p COM86 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 16MB 0x0 bootloader/bootloader.bin 0x10000 lvgl_demo.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.dev1
+Serial port COM86
+Connecting....
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+Crystal is 40MHz
+MAC: cc:8d:a2:e2:72:1c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00006fff...
+Flash will be erased from 0x00010000 to 0x000b5fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26608 bytes to 16066...
+Writing at 0x00000000... (100 %)
+Wrote 26608 bytes (16066 compressed) at 0x00000000 in 0.7 seconds (effective 299.8 kbit/s)...
+Hash of data verified.
+Compressed 679920 bytes to 386714...
+Writing at 0x00010000... (4 %)
+Writing at 0x00019f08... (8 %)
+Writing at 0x00024662... (12 %)
+Writing at 0x0002d7df... (16 %)
+Writing at 0x000376b8... (20 %)
+Writing at 0x0004033a... (25 %)
+Writing at 0x00049552... (29 %)
+Writing at 0x00056ab7... (33 %)
+Writing at 0x0005c412... (37 %)
+Writing at 0x00061edd... (41 %)
+Writing at 0x000677f4... (45 %)
+Writing at 0x0006cfb2... (50 %)
+Writing at 0x00071ef8... (54 %)
+Writing at 0x00076ced... (58 %)
+Writing at 0x0007cfb5... (62 %)
+Writing at 0x000821e5... (66 %)
+Writing at 0x00087236... (70 %)
+Writing at 0x0008c730... (75 %)
+Writing at 0x000917b8... (79 %)
+Writing at 0x0009697f... (83 %)
+Writing at 0x0009c796... (87 %)
+Writing at 0x000a2b63... (91 %)
+Writing at 0x000ad025... (95 %)
+Writing at 0x000b29eb... (100 %)
+Wrote 679920 bytes (386714 compressed) at 0x00010000 in 8.9 seconds (effective 614.5 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 122...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (122 compressed) at 0x00008000 in 0.0 seconds (effective 518.3 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
