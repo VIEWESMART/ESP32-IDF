@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/ESP/Espressif/frameworks/esp-idf-v5.2.2/examples/get-started/UEDX80480043E-WB-A-IDF-SDK/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "D:/ESP/Espressif/frameworks/esp-idf-v5.2.2/examples/get-started/UEDX80480043E-WB-A-IDF-SDK/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "D:/ESP/Espressif/frameworks/esp-idf-v5.2.2/examples/get-started/UEDX80480043E-WB-A-IDF-SDK/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "D:/ESP/Espressif/frameworks/esp-idf-v5.2.2/examples/get-started/UEDX80480043E-WB-A-IDF-SDK/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "D:/ESP/Espressif/frameworks/esp-idf-v5.2.2/examples/get-started/UEDX80480043E-WB-A-IDF-SDK/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "D:/ESP/Espressif/frameworks/esp-idf-v5.2.2/examples/get-started/UEDX80480043E-WB-A-IDF-SDK/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "D:/ESP/Espressif/frameworks/esp-idf-v5.2.2/examples/get-started/UEDX80480043E-WB-A-IDF-SDK/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "D:/ESP/Espressif/frameworks/esp-idf-v5.2.2/examples/get-started/UEDX80480043E-WB-A-IDF-SDK/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "D:/ESP/Espressif/frameworks/esp-idf-v5.2.2/examples/get-started/UEDX80480043E-WB-A-IDF-SDK/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "D:/ESP/Espressif/frameworks/esp-idf-v5.2.2/examples/get-started/UEDX80480043E-WB-A-IDF-SDK/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

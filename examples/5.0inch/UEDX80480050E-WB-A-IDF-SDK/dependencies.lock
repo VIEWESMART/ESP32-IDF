@@ -1,0 +1,21 @@
+dependencies:
+  espressif/esp_lcd_touch:
+    component_hash: 779b4ba2464a3ae85681e4b860caa5fdc35801458c23f3039ee761bae7f442a4
+    source:
+      storage_url: file:///D:/ESP/Espressif/registry
+      type: service
+    version: 1.1.2
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.2
+  lvgl:
+    component_hash: null
+    source:
+      path: D:\ESP\Espressif\frameworks\esp-idf-v5.2.2\examples\get-started\UEDX80480043E-WB-A-IDF-SDK\components\lvgl
+      type: local
+    version: 9.1.0
+manifest_hash: 3f1b84d9a75d372926965a41be6501c73ecc60250becdc39a4399888051f539c
+target: esp32s3
+version: 1.0.0
