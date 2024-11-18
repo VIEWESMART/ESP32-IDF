@@ -28,8 +28,8 @@
 #include "lv_demos.h"
 
 //*************************************************** */
-#define GC 1   //2.4/2.8/3.5 low resolution set 1
-#define ST 0   //3.5 3.5inch high resolution set 1
+#define GC 0   //2.4/2.8/3.5 low resolution set 1
+#define ST 1   //3.5 3.5inch high resolution set 1
 
 /*select board*/
 #if GC
