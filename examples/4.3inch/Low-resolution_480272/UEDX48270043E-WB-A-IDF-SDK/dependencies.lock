@@ -1,0 +1,31 @@
+dependencies:
+  espressif/button:
+    component_hash: 5357a6a2c0c47fa67eb9a4dad8cbd78f848d05409b3557e49ec9948898655cfb
+    source:
+      type: service
+    version: 3.4.0
+  espressif/cmake_utilities:
+    component_hash: 351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f
+    source:
+      type: service
+    version: 0.5.3
+  espressif/esp_lcd_touch:
+    component_hash: 779b4ba2464a3ae85681e4b860caa5fdc35801458c23f3039ee761bae7f442a4
+    source:
+      storage_url: file:///D:/ESP/Espressif/registry
+      type: service
+    version: 1.1.2
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.2
+  lvgl:
+    component_hash: null
+    source:
+      path: D:\ESP\Espressif\frameworks\esp-idf-v5.2.2\examples\get-started\UEDX80480043E-WB-A-IDF-SDK\components\lvgl
+      type: local
+    version: 9.1.0
+manifest_hash: d004618a8a87e061ddc6e7ac299c2475029be3ccb27aa53bc96ba57d92fac23b
+target: esp32s3
+version: 1.0.0
